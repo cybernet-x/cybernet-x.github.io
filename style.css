@@ -11,12 +11,13 @@ html {
 	scroll-behavior: smooth;
 }
 body {
+	background-color: black;
 	height: 100%;
 	margin: 0;
 	text-align: center;
 	width: 100%;
 }
-#main h1 {
+h1 {
 	display: block;
 	width: fit-content;
 	font-size: 4rem;
@@ -34,11 +35,10 @@ p {
   
   }
 .main {
-	background-color: black;
 	background-image: url(/images/cybernet_x_logo.jpg);
 	background-size: cover;
-	background-position: center;
-	z-index: 1;
+	
+	
 }
 .interface {
 	font-size: 2rem;
