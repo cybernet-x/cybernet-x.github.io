@@ -10,6 +10,12 @@ html {
 	font-size: 20px;
 	scroll-behavior: smooth;
 }
+body {
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
 #main h1 {
 	display: block;
 	width: fit-content;
@@ -22,10 +28,15 @@ html {
 a {
 	text-decoration: none;
 }
+p {
+	font-size: 2rem;
+  
+  }
 .main {
 	background-image: url(/images/cybernet_x_logo.jpg);
 	background-size: cover;
 	background-position: center;
+	background-color: black;
 	position: relative;
 	z-index: 1;
 }
@@ -46,14 +57,8 @@ a {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: black;
+	
 	opacity: 1.7;
 	z-index: -1;
-}
-#main .main {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 0 50px;
-	justify-content: flex-start;
 }
 
