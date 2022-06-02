@@ -27,17 +27,17 @@ body {
 }
 a {
 	text-decoration: none;
+	font-size: 2rem;
 }
 p {
 	font-size: 2rem;
   
   }
 .main {
+	background-color: black;
 	background-image: url(/images/cybernet_x_logo.jpg);
 	background-size: cover;
 	background-position: center;
-	background-color: black;
-	position: relative;
 	z-index: 1;
 }
 .interface {
