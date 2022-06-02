@@ -13,22 +13,22 @@ html {
 a {
 	text-decoration: none;
 }
-.container {
+.interface {
 	min-height: 100vh;
 	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-/* Hero Section */
-#hero {
+
+#main {
 	background-image: url(/images/cybernet_x_logo.jpg);
 	background-size: 30%;
 	background-position: center;
 	position: relative;
 	z-index: 1;
 }
-#hero::after {
+#main::after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -39,13 +39,13 @@ a {
 	opacity: 1.7;
 	z-index: -1;
 }
-#hero .hero {
+#main .main {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 50px;
 	justify-content: flex-start;
 }
-#hero h1 {
+#main h1 {
 	display: block;
 	width: fit-content;
 	font-size: 4rem;
