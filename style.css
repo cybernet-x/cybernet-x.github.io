@@ -33,7 +33,7 @@ p {
   }
 .logo {
 	background-image: url(/images/cybernet_x_logo.jpg);
-	background-size: 200%;
+	object-fit: cover;
 }
 .interface {
 	font-size: 3rem;
@@ -45,8 +45,8 @@ p {
 	color: white;
 }
 .matrix {
-	background-size: 200%;
+	object-fit: cover;
 }
 .lab {
-	background-size: 200%;
+	object-fit: cover;
 }
