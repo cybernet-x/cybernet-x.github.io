@@ -21,6 +21,8 @@ h1 {
 a {
 	text-decoration: none;
 	font-size: 2rem;
+	border-style: solid;
+	vertical-align: top;
 }
 p {
 	font-size: 0.5rem;
