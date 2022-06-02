@@ -25,7 +25,7 @@ p {
   }
 .logo {
 	background-image: url(/images/cybernet_x_logo.jpg);
-	object-fit: cover;
+	object-fit: fill;
 }
 .interface {
 	color: rgb(118, 21, 143);
@@ -40,10 +40,13 @@ p {
 }
 .content {
 	color: white;
+	font-size: 1rem;
 }
 .matrix {
 	object-fit: cover;
+	
 }
 .lab {
 	object-fit: cover;
+	
 }
