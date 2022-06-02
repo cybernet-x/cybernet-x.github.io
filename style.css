@@ -1,19 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200&display=swap');
 * {
+	font-family: 'Oxanium', sans-serif;
+	text-align: center;
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
 html {
 	font-size: 20px;
-	font-family: 'Oxanium', sans-serif;
-	text-align: center;
 	scroll-behavior: smooth;
+}
+#main h1 {
+	display: block;
+	width: fit-content;
+	font-size: 4rem;
+	color:rgb(226, 224, 220);
+	position: relative;
+	animation: text_reveal 0.5s ease forwards;
+	animation-delay: 1s;
 }
 a {
 	text-decoration: none;
 }
+.main {
+	background-image: url(/images/cybernet_x_logo.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	z-index: 1;
+}
 .interface {
+	font-size: 2rem;
 	min-height: 100vh;
 	width: 100%;
 	display: flex;
@@ -21,13 +38,7 @@ a {
 	justify-content: center;
 }
 
-#main {
-	background-image: url(/images/cybernet_x_logo.jpg);
-	background-size: 30%;
-	background-position: center;
-	position: relative;
-	z-index: 1;
-}
+
 #main::after {
 	content: '';
 	position: absolute;
@@ -45,12 +56,4 @@ a {
 	padding: 0 50px;
 	justify-content: flex-start;
 }
-#main h1 {
-	display: block;
-	width: fit-content;
-	font-size: 4rem;
-	position: relative;
-	color: white;
-	animation: text_reveal 0.5s ease forwards;
-	animation-delay: 1s;
-}
+
