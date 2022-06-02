@@ -32,7 +32,7 @@ p {
 	color:rgb(133, 130, 124);
   
   }
-.main {
+.logo {
 	background-image: url(/images/cybernet_x_logo.jpg);
 	background-size: 200%;
 }
@@ -45,4 +45,9 @@ p {
 .content {
 	color: blanchedalmond;
 }
-
+.matrix {
+	background-size: 200%;
+}
+.lab {
+	background-size: 200%;
+}
