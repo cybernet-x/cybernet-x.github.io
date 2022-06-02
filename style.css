@@ -49,15 +49,3 @@ p {
 }
 
 
-#main::after {
-	content: '';
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	
-	opacity: 1.7;
-	z-index: -1;
-}
-
