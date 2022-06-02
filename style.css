@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200&display=swap');
+
 * {
 	font-family: 'Oxanium', sans-serif;
 	text-align: center;
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
 }
 html {
 	scroll-behavior: smooth;
@@ -20,10 +18,10 @@ h1 {
 	display: block;
 	width: fit-content;
 	font-size: 4rem;
-	color:rgb(226, 224, 220);
-	position: relative;
+	color:rgb(243, 242, 239);
+	position: absolute;
 	animation: text_reveal 0.5s ease forwards;
-	animation-delay: 1s;
+	animation-delay: 2s;
 }
 a {
 	text-decoration: none;
@@ -37,8 +35,6 @@ p {
 .main {
 	background-image: url(/images/cybernet_x_logo.jpg);
 	background-size: full;
-	
-	
 }
 .interface {
 	font-size: 2rem;
