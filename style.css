@@ -23,7 +23,7 @@ a {
 #hero {
 	background-image: url(./cybernet_x_logo.jpg);
 	background-size: 30%;
-	background-position: top center;
+	background-position: center;
 	position: relative;
 	z-index: 1;
 }
