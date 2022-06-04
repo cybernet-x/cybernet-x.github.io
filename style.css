@@ -18,6 +18,9 @@ h1 {
 	font-size: 4rem;
 	color:white;
 	vertical-align: top;
+	display: flex; 
+	flex-wrap: wrap;
+  	justify-content: center;
 	animation: text_reveal 2s ease forwards;
 	animation-delay: 2s;
 }
