@@ -17,7 +17,8 @@ h1 {
 	display: block;
 	font-size: 4rem;
 	color:white;
-	animation: text_reveal 0.5s ease forwards;
+	vertical-align: top;
+	animation: text_reveal 2s ease forwards;
 	animation-delay: 2s;
 }
 p {
