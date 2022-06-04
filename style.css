@@ -8,9 +8,10 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-	background-color: black;
 	background-image: url(/images/cybernet_x_logo.jpg);
-	object-fit: fill;
+	background-position: center top;
+  background-size: cover;
+  margin: 0;
 }
 h1 {
 	display: block;
