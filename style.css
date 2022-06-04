@@ -28,9 +28,10 @@ p {
 .interface {
 	color: rgb(118, 21, 143);
 	font-size: 3rem;
+	text-decoration: none;
 	border-style: groove;
 	border-color: rgb(48, 46, 46);
-	padding: 40px;
+	padding: 60px;
 	margin: 2rem;
 	vertical-align: top;
 	width: 100%;
@@ -43,6 +44,9 @@ p {
 
 
 }	
+. status {
+
+}
 .content {
 	font-size: 1rem;
 	color: white;
