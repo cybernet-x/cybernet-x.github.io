@@ -9,6 +9,8 @@ html {
 }
 body {
 	background-color: black;
+	background-image: url(/images/cybernet_x_logo.jpg);
+	object-fit: fill;
 }
 h1 {
 	display: block;
@@ -24,8 +26,7 @@ p {
   
   }
 .logo {
-	background-image: url(/images/cybernet_x_logo.jpg);
-	object-fit: fill;
+	
 }
 .interface {
 	color: rgb(118, 21, 143);
