@@ -31,11 +31,11 @@ p {
 }
 .interface {
 	color: rgb(118, 21, 143);
-	font-size: 3rem;
+	font-size: 4rem;
 	text-decoration: none;
 	border-style: groove;
 	border-color: rgb(48, 46, 46);
-	padding: 60px;
+	padding: 100px;
 	margin: 2rem;
 	vertical-align: top;
 	width: 100%;
