@@ -38,7 +38,8 @@ p {
 	border-color: rgb(48, 46, 46);
 	border-radius: 4px;
 	padding: 13px;
-	margin: 1rem;
+	margin-top: 100px;
+	margin-bottom: 100px;
 	vertical-align: top;
 	width: 100%;
 	align-items: center;
@@ -52,6 +53,8 @@ p {
 }	
 . status {
 	border: 6px solid transparent;
+	margin-top: 100px;
+	margin-bottom: 1px;
 }
 .content {
 	font-size: 1rem;
