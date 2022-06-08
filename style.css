@@ -8,14 +8,12 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-	background-image: url(/images/cybernet_x_logo.jpg);
-	background-position: center;
-    background-size: cover;
+	
     
 }
 h1 {
 	display: block;
-	font-size: 4rem;
+	font-size: 6rem;
 	color:white;
 	text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5), 3px 6px 12px rgba(239,239,239,0.64);
 	vertical-align: top;
@@ -32,8 +30,8 @@ p {
 }
 .interface {
 	color: rgb(118, 21, 143);
-	font-size: 4rem;
-	text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 4px 15px 7px rgba(0,0,0,0.92);
+	font-size: 7rem;
+	text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c285ff 0px 0px 20px, #c285ff 0px 0px 30px, #c285ff 0px 0px 40px, #c285ff 0px 0px 50px, #c285ff 0px 0px 75px;
 	text-decoration: none;
 	border-style: groove;
 	border-color: rgb(48, 46, 46);
