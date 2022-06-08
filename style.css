@@ -16,7 +16,7 @@ h1 {
 	font-size: 6rem;
 	color:white;
 	text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5), 3px 6px 12px rgba(239,239,239,0.64);
-	vertical-align: top;
+	vertical-align: center;
 	display: flex; 
 	flex-wrap: wrap;
   	justify-content: center;
