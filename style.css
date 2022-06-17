@@ -44,13 +44,14 @@ p {
 	width: 100%;
 	align-items: center;
 	justify-content: center;
-}
-.interface a {
 	position: relative;
 	top: 2px;
+}
+.interface:hover {
+	color: blue;
 
 
-}	
+}
 . status {
 	border: 6px solid transparent;
 	margin-top: 100px;
