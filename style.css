@@ -55,6 +55,16 @@ p {
 
 }
 
+.blue_pill {
+	float: left;
+	margin: 50px;
+}
+
+.red_pill {
+	float: right;
+	margin: 50px;
+}
+
 .status {
 	border: 6px solid transparent;
 	margin-top: 100px;
