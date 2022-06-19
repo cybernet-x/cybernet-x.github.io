@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200&display=swap');
 
-* {
+
+html {
 	font-family: 'Oxanium', sans-serif;
 	text-align: center;
-}
-html {
 	scroll-behavior: smooth;
 }
-body {
-	   
+
+body {	   
 }
+
 h1 {
 	display: block;
 	font-size: 6rem;
@@ -22,11 +22,12 @@ h1 {
 	animation: text_reveal 2s ease forwards;
 	animation-delay: 2s;
 }
+
 p {
 	font-size: 1rem;
-	color:rgb(133, 130, 124);
-  
+	color:rgb(133, 130, 124);  
 }
+
 .choice {
 	color: rgb(234, 222, 236);
 	font-size: 7rem;
@@ -47,11 +48,13 @@ p {
 	position: relative;
 	top: 2px;
 }
+
 .choice:hover {
 	color: white;
 
 }
-. status {
+
+.status {
 	border: 6px solid transparent;
 	margin-top: 100px;
 	margin-bottom: 1px;
