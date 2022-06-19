@@ -5,6 +5,7 @@ html {
 	font-family: 'Oxanium', sans-serif;
 	text-align: center;
 	scroll-behavior: smooth;
+	box-sizing: border-box;
 }
 
 body {	   
