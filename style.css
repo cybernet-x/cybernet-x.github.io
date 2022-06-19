@@ -27,7 +27,7 @@ p {
 	color:rgb(133, 130, 124);
   
 }
-.interface {
+.choice {
 	color: rgb(234, 222, 236);
 	font-size: 7rem;
 	text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c285ff 0px 0px 20px, #c285ff 0px 0px 30px, #c285ff 0px 0px 40px, #c285ff 0px 0px 50px, #c285ff 0px 0px 75px;
@@ -47,9 +47,8 @@ p {
 	position: relative;
 	top: 2px;
 }
-.interface:hover {
-	color: blue;
-
+.choice:hover {
+	color: white;
 
 }
 . status {
