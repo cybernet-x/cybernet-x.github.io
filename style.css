@@ -39,7 +39,6 @@ p {
 	border-style: groove;
 	border-color: rgb(48, 46, 46);
 	border-radius: 4px;
-	padding: 100px;
 	vertical-align: top;
 	align-items: center;
 	justify-content: center;
@@ -53,11 +52,13 @@ p {
 .blue_pill {
 	float: left;
 	margin: 50px;
+	padding: 100px;
 }
 
 .red_pill {
 	float: right;
 	margin: 50px;
+	padding: 100px;
 }
 
 .status {
