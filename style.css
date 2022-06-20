@@ -50,21 +50,21 @@ p {
 
 .blue_pill {
 	float: left;
-	margin: 50px;
-	padding: 100px;
+	margin: 10px;
+	padding: 10px;
 	text-decoration: none;
 
 }
 
 .red_pill {
 	float: right;
-	margin: 50px;
-	padding: 100px;
+	margin: 10px;
+	padding: 10px;
 	text-decoration: none;
 
 }
 
-.status {
+.footer {
 	border: 6px solid transparent;
 	margin-top: 100px;
 	margin-bottom: 1px;
