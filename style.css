@@ -40,12 +40,13 @@ p {
 
 .choice:hover {
 	color: rgb(56, 66, 199);
+	cursor: pointer;
 
 }
 
 .blue_pill {
 	float: left;
-	margin: 10px;
+	margin: 100px;
 	padding: 10px;
 	text-decoration: none;
 
@@ -53,7 +54,7 @@ p {
 
 .red_pill {
 	float: right;
-	margin: 10px;
+	margin: 100px;
 	padding: 10px;
 	text-decoration: none;
 
