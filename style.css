@@ -34,7 +34,6 @@ p {
 	color: rgb(234, 222, 236);
 	font-size: 7rem;
 	text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c285ff 0px 0px 20px, #c285ff 0px 0px 30px, #c285ff 0px 0px 40px, #c285ff 0px 0px 50px, #c285ff 0px 0px 75px;
-	text-decoration: none;
 	background-color: rgba(66, 63, 63, 0.712);
 	border-style: groove;
 	border-color: rgb(48, 46, 46);
@@ -53,12 +52,16 @@ p {
 	float: left;
 	margin: 50px;
 	padding: 100px;
+	text-decoration: none;
+
 }
 
 .red_pill {
 	float: right;
 	margin: 50px;
 	padding: 100px;
+	text-decoration: none;
+
 }
 
 .status {
