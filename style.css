@@ -21,30 +21,25 @@ h1 {
 	display: flex; 
 	flex-wrap: wrap;
   	justify-content: center;
-	animation: text_reveal 2s ease forwards;
-	animation-delay: 2s;
 }
 
-p {
-	font-size: 1rem;
-	color:rgb(133, 130, 124);  
+p { 
 }
 
 .choice {
 	color: rgb(234, 222, 236);
 	font-size: 7rem;
 	text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c285ff 0px 0px 20px, #c285ff 0px 0px 30px, #c285ff 0px 0px 40px, #c285ff 0px 0px 50px, #c285ff 0px 0px 75px;
-	background-color: rgba(66, 63, 63, 0.712);
-	border-style: groove;
-	border-color: rgb(48, 46, 46);
-	border-radius: 4px;
+	border-style: none;
 	vertical-align: top;
+	display: flex; 
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
 }
 
 .choice:hover {
-	color: white;
+	color: rgb(56, 66, 199);
 
 }
 
@@ -65,16 +60,6 @@ p {
 }
 
 .footer {
-	border: 6px solid transparent;
-	margin-top: 100px;
-	margin-bottom: 1px;
+	
 }
 
-.matrix {
-	object-fit: cover;
-	
-}
-.lab {
-	object-fit: cover;
-	
-}
