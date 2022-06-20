@@ -40,7 +40,7 @@ p {
 
 .choice:hover {
 	color: rgb(56, 66, 199);
-	cursor: pointer;
+	cursor: none;
 
 }
 
