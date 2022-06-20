@@ -46,7 +46,7 @@ p {
 
 .blue_pill {
 	float: left;
-	margin: 30px;
+	margin: 80px;
 	padding: 10px;
 	text-decoration: none;
 
@@ -54,7 +54,7 @@ p {
 
 .red_pill {
 	float: right;
-	margin: 30px;
+	margin: 80px;
 	padding: 10px;
 	text-decoration: none;
 
