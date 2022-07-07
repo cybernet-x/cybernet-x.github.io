@@ -39,15 +39,14 @@ p {
 }
 
 .choice:hover {
-	color: rgba(56, 66, 199, 0.5);
-	cursor: none;
+	color: rgba(96, 99, 139, 0.5);
+	cursor: pointer;
 
 }
 
 .blue_pill {
 	float: left;
 	margin: 100px;
-	padding: 20px;
 	text-decoration: none;
 
 }
@@ -55,7 +54,6 @@ p {
 .red_pill {
 	float: right;
 	margin: 100px;
-	padding: 20px;
 	text-decoration: none;
 
 }
