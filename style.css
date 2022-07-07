@@ -27,7 +27,7 @@ p {
 }
 
 .choice {
-	color: rgb(234, 222, 236);
+	color: rgba(238, 231, 240, 0.5);
 	font-size: 7rem;
 	text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c285ff 0px 0px 20px, #c285ff 0px 0px 30px, #c285ff 0px 0px 40px, #c285ff 0px 0px 50px, #c285ff 0px 0px 75px;
 	border-style: none;
@@ -39,23 +39,23 @@ p {
 }
 
 .choice:hover {
-	color: rgb(56, 66, 199);
+	color: rgba(56, 66, 199, 0.5);
 	cursor: none;
 
 }
 
 .blue_pill {
 	float: left;
-	margin: 80px;
-	padding: 10px;
+	margin: 100px;
+	padding: 20px;
 	text-decoration: none;
 
 }
 
 .red_pill {
 	float: right;
-	margin: 80px;
-	padding: 10px;
+	margin: 100px;
+	padding: 20px;
 	text-decoration: none;
 
 }
