@@ -36,11 +36,12 @@ p {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
+	cursor: context-menu;
 }
 
 .choice:hover {
 	color: rgba(96, 99, 139, 0.5);
-	cursor: pointer;
+	cursor: context-menu;
 
 }
 
