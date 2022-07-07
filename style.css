@@ -49,6 +49,7 @@ p {
 	float: left;
 	margin: 100px;
 	text-decoration: none;
+	cursor: context-menu;
 
 }
 
@@ -56,6 +57,7 @@ p {
 	float: right;
 	margin: 100px;
 	text-decoration: none;
+	cursor: context-menu;
 
 }
 
