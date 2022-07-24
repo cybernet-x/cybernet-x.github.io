@@ -29,6 +29,7 @@ p {
 }
 
 .screen {
+	border: 1px solid green
 	background-image: url(/img/GIF-HORIZONTAL-5.gif);
     background-size: cover;
     background-position: center;
@@ -36,6 +37,7 @@ p {
 }
 
 .choices {
+	border: 1px solid green
 	color: rgba(255, 255, 255, 0.5);
 	font-size: 7rem;
 	text-decoration: none;
@@ -72,6 +74,7 @@ p {
 }
 
 .footer {
+	border: 1px solid green
 	display: flex;
     align-items: stretch;
 	float: bottom;
