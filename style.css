@@ -18,7 +18,7 @@ h1 {
 	display: block;
 	font-size: 6rem;
 	color:white;
-	text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5), 3px 6px 12px rgba(77, 180, 73, 0.64);
+	text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5), 3px 6px 12px rgba(77, 180, 73, 0.64),  #abf1bd 0px 0px 75px;
 	vertical-align: center;
 	display: flex; 
 	flex-wrap: wrap;
@@ -36,8 +36,9 @@ p {
 }
 
 .choice {
-	color: rgba(238, 231, 240, 0.5);
+	color: rgba(255, 255, 255, 0.5);
 	font-size: 7rem;
+	text-decoration: none;
 	text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c285ff 0px 0px 50px, #c285ff 0px 0px 75px;
 	border-style: none;
 	vertical-align: top;
@@ -49,7 +50,7 @@ p {
 }
 
 .choice:hover {
-	color: rgba(96, 99, 139, 0.5);
+	color: rgba(155, 155, 160, 0.5);
 	cursor: context-menu;
 
 }
