@@ -28,14 +28,14 @@ h1 {
 p { 
 }
 
-.content {
+.screen {
 	background-image: url(/img/GIF-HORIZONTAL-5.gif);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.choice {
+.choices {
 	color: rgba(255, 255, 255, 0.5);
 	font-size: 7rem;
 	text-decoration: none;
