@@ -1,83 +1,189 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200&display=swap');
 
 
-html {
+* {
 	font-family: 'Oxanium', sans-serif;
 	text-align: center;
 	scroll-behavior: smooth;
 	box-sizing: border-box;
-	cursor: crosshair;
 }
+
 body {
-	
-   
+	background-color: black;
+	cursor: crosshair;
+	margin: 0;
+	   
   }
 
 
+
+
+
+
+header {
+    padding: 20%;
+	background-image: url(./img/GIF-HORIZONTAL-5.gif);
+	background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
 h1 {
-	display: block;
-	font-size: 6rem;
+  	display: block;
+	font-size:5vw;
 	color:white;
 	text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5), 3px 6px 12px rgba(77, 180, 73, 0.64),  #abf1bd 0px 0px 75px;
 	vertical-align: center;
 	display: flex; 
 	flex-wrap: wrap;
   	justify-content: center;
+  	padding-top: 5vw;
+  	background-color: transparent;
 }
 
-p { 
+
+.lab {
+    position: absolute;
+    top: 32vw;
+    left: 15vw;
+    background-color: transparent;
+    color: white;
+    font-size: 6vw;
+    text-decoration: none;
+    border-style: none;
+    padding: 16px 30px;
+    margin: 4px 2px;
+    border: none;
+    cursor: alias;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
 }
 
-.screen {
-	border: 1px solid green
-	background-image: url(/img/GIF-HORIZONTAL-5.gif);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.lab:hover {
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c285ff 0px 0px 20px, #c285ff 0px 0px 30px, #c285ff 0px 0px 40px, #c285ff 0px 0px 50px, #c285ff 0px 0px 75px;
+    color: white;
+    cursor: alias;
+    opacity: 1
 }
 
-.choices {
-	border: 1px solid green
-	color: rgba(255, 255, 255, 0.5);
-	font-size: 7rem;
-	text-decoration: none;
-	text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c285ff 0px 0px 50px, #c285ff 0px 0px 75px;
-	border-style: none;
-	vertical-align: top;
-	display: flex; 
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
-	cursor: context-menu;
+.shell {
+    position: absolute;
+    top: 32vw;
+    right: 10vw;
+    background-color: transparent;
+    color: white;
+    font-size: 6vw;
+    text-decoration: none;
+    border-style: none;
+    padding: 16px 30px;
+    margin: 4px 2px;
+    border: none;
+    cursor: alias;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
 }
 
-.choice:hover {
-	color: rgba(155, 155, 160, 0.5);
-	cursor: context-menu;
-
+.shell:hover {
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #c285ff 0px 0px 20px, #c285ff 0px 0px 30px, #c285ff 0px 0px 40px, #c285ff 0px 0px 50px, #c285ff 0px 0px 75px;
+    color: white;
+    cursor: alias;
+    opacity: 1
 }
 
-.blue_pill {
-	float: left;
-	margin: 10px;
-	text-decoration: none;
-	cursor: context-menu;
-
+@media screen and (max-width: 600px) {
+  .lab {
+    float: none;
+    display: block;
+  }
+  
+  .shell {
+    float: none;
+    display: block;
+  }
 }
 
-.red_pill {
-	float: right;
-	margin: 10px;
-	text-decoration: none;
-	cursor: context-menu;
-
-}
-
-.footer {
-	border: 1px solid green
-	display: flex;
-    align-items: stretch;
-	float: bottom;
+footer {
+	padding: 0.2em;
+	background-color: black;
+	border-style: ridge;
+	overflow: hidden;
 	
+
 }
+
+
+ /* map Button */
+.map {
+	color: white;
+	font-size: 3vw;
+	padding: 0;
+    background-color: transparent;
+    border-style: none;
+    text-align: center;
+    opacity: 0.6;
+    transition: 0.3s;
+    position: relative;
+    display: inline-block;
+    float: left;
+    
+}
+
+.map:hover {
+	text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5), 3px 6px 12px rgba(77, 180, 73, 0.64),  #abf1bd 0px 0px 75px;
+    color: white;
+    cursor: alias;
+    opacity: 1;
+    overflow: hidden;
+ 
+}
+
+/* The container <div> - needed to position the dropup content */
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+
+
+
+/* Dropup content (Hidden by Default) */
+.dropup-content {
+  display: none;
+  position: absolute;
+  bottom: 50px;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropup */
+.dropup-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropup links on hover */
+.dropup-content a:hover {background-color: #ddd}
+
+/* Show the dropup menu on hover */
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+/* Change the background color of the dropup button when the dropup content is shown */
+.dropup:hover .dropbtn {
+  background-color: #2980B9;
+} 
+
 
