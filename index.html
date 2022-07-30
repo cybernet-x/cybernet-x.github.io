@@ -50,12 +50,75 @@
 <!--FOOTER SECTION -->
 
 <footer>
-   <div class="dropup">
-      <button class="map">map<i class="fa fa-caret-up"></i></button>
-      <div class="dropup-content">
-        <a href="#">somewhere</a>
-        <a href="#">else</a>
-  </div>
+
+ 
+<div id="myNav" class="overlay">
+
+        <a href="javascript:void(0)"
+            class="closebtn" onclick="closeNav()">
+            ×
+        </a>
+        <div class="overlay-content">
+            <a href="#">lab</a>
+            <a href="./shell.html">shell</a>
+           
+        </div>
+    </div>
+      
+    
+
+    <span style="color: white;font-size:3vw;cursor:alias;" onclick="openNav()">map</span>
+
+
+<script>
+/* Open */
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+/* Close */
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+} 
+</script>
+
+
+
+<!--
+
+  <div class="map">
+      <button class="map-button">map<i class="fa fa-caret-up"></i></button>
+      
+      <div class="map-sub">
+        
+        <img src="./img/matrix1.jpg" alt="map_graph">
+
+        <div class="header">
+        <h2>cybernet_x_map</h2>
+        </div>
+
+      </div>
+            
+      <div class="row">
+        <header>lab</header>
+          <ul class="map-links">
+            <li><a href="#">electronics</a></li>
+            <li><a href="#">prototyopes</a></li>                          
+          </ul>
+      </div>
+      <div class="row">
+        <header>shell</header>
+          <ul class="map-links">
+            <li><a href="#">system</a></li>
+            <li><a href="#">network</a></li>
+            <li><a href="#">security</a></li>                          
+          </ul>
+      </div>
+  </div>       
+ -->
+
+
+
 </footer>
 
 
